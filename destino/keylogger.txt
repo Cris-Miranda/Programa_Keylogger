@@ -1,0 +1,24 @@
+2025-03-10 17:22:56,532 - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/home/cris/Documentos/Python_keylogger/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 230, in inner
+    return f(self, *args, **kwargs)
+  File "/home/cris/Documentos/Python_keylogger/venv/lib/python3.13/site-packages/pynput/_util/xorg.py", line 472, in _handler
+    self._handle(self._display_stop, event, injected)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '_thread._ThreadHandle' object is not callable
+2025-03-10 17:23:11,553 - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/home/cris/Documentos/Python_keylogger/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 230, in inner
+    return f(self, *args, **kwargs)
+  File "/home/cris/Documentos/Python_keylogger/venv/lib/python3.13/site-packages/pynput/_util/xorg.py", line 472, in _handler
+    self._handle(self._display_stop, event, injected)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '_thread._ThreadHandle' object is not callable
+2025-03-10 17:25:07,469 - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/home/cris/Documentos/Python_keylogger/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 230, in inner
+    return f(self, *args, **kwargs)
+  File "/home/cris/Documentos/Python_keylogger/venv/lib/python3.13/site-packages/pynput/_util/xorg.py", line 472, in _handler
+    self._handle(self._display_stop, event, injected)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '_thread._ThreadHandle' object is not callable
